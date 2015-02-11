@@ -15,8 +15,16 @@ print "una cadena: \"cadena\"";
 ?>
 <hr>
 <?php 
+$nombre="Angel";
 
+print "<p>¿Qué tal estas $nombre?</p>";
+
+print "<p>¿Qué tal estas " . $nombre . "?</p>";
 ?>
 
 </body>
 </html>
+
+
+
+

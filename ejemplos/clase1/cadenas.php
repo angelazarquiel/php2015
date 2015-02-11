@@ -10,8 +10,12 @@
 <?php
 print "una cadena entre comillas<br>";
 print 'una cadena entre comillas simples<br>';
-print "una cadena: 'cadena'";
+print "una cadena: 'cadena'<br>";
 print "una cadena: \"cadena\"";
+?>
+<hr>
+<?php 
+
 ?>
 
 </body>

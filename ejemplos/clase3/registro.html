@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registro de usuarios</title>
+<style type="text/css">
+body {
+	text-align: center;
+}
+input {
+	font-size:1.25em;
+	width:160px;
+	padding-left:10px;
+	margin-top:10px;
+}
+
+</style>
+</head>
+<body>
+
+	<form action="registro.php" method="get" accept-charset="utf-8">
+		Nombre: 
+		<input type="text" name="nombre" value="" placeholder="Nombre de usuario"><br>
+		Apellidos: 
+		<input type="text" name="apellidos" value="" placeholder=""><br>
+		E-mail: <input type="email" name="email" value="" placeholder=""><br>
+		Clave: <input type="password" name="clave" value="" placeholder=""><br>
+		Sexo: <input type="radio" name="sexo" value="Masculino" placeholder="">Masculino
+		<input type="radio" name="sexo" value="Femenino" placeholder="">Femenino
+
+		<input type="reset" name="borrar" value="Borrar">
+		<input type="submit" name="aceptar" value="Aceptar">
+
+	</form>
+
+</body>
+</html>
+

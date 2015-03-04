@@ -6,7 +6,7 @@ $db=conectaDb();
 
 print "<h1> Gestión de comentarios </h1>";
 
-$consulta = "SELECT * FROM comentarios";
+$consulta = "SELECT codigo,texto,fecha FROM `comentarios` ORDER BY fecha DESC LIMIT 2 ";
 $result = $db->query($consulta);
 if (!$result) {
 	print "<p>Error en la consulta.</p>\n";
